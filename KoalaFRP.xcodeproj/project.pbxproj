@@ -1,0 +1,503 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B4C5DAA645A28E654A350E5C /* libPods-KoalaFRP.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7453DE468D45D02FEC963E8F /* libPods-KoalaFRP.a */; };
+		EA02CE9E1AADC0DA00D131F6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA02CE9D1AADC0DA00D131F6 /* main.m */; };
+		EA02CEA11AADC0DA00D131F6 /* FRPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA02CEA01AADC0DA00D131F6 /* FRPAppDelegate.m */; };
+		EA02CEA91AADC0DA00D131F6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA02CEA81AADC0DA00D131F6 /* Images.xcassets */; };
+		EA02CEAC1AADC0DA00D131F6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA02CEAA1AADC0DA00D131F6 /* LaunchScreen.xib */; };
+		EABB75F41AADC790008E4A60 /* FRPPhotoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EABB75F31AADC790008E4A60 /* FRPPhotoModel.m */; };
+		EABB75FA1AADC860008E4A60 /* FRPPhotoImporter.m in Sources */ = {isa = PBXBuildFile; fileRef = EABB75F91AADC860008E4A60 /* FRPPhotoImporter.m */; };
+		EABB76031AADC8C3008E4A60 /* FRPGalleryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EABB76001AADC8C3008E4A60 /* FRPGalleryViewController.m */; };
+		EABB76041AADC8C3008E4A60 /* FRPGalleryViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EABB76021AADC8C3008E4A60 /* FRPGalleryViewModel.m */; };
+		EABB76091AADC8DD008E4A60 /* FRPFullSizePhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EABB76061AADC8DD008E4A60 /* FRPFullSizePhotoViewController.m */; };
+		EABB760A1AADC8DD008E4A60 /* FRPFullSizePhotoViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EABB76081AADC8DD008E4A60 /* FRPFullSizePhotoViewModel.m */; };
+		EABB760F1AADC8E8008E4A60 /* FRPPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EABB760C1AADC8E8008E4A60 /* FRPPhotoViewController.m */; };
+		EABB76101AADC8E8008E4A60 /* FRPPhotoViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EABB760E1AADC8E8008E4A60 /* FRPPhotoViewModel.m */; };
+		EABB76151AADC8F2008E4A60 /* FRPPhotoDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EABB76121AADC8F2008E4A60 /* FRPPhotoDetailViewController.m */; };
+		EABB76161AADC8F2008E4A60 /* FRPPhotoDetailViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EABB76141AADC8F2008E4A60 /* FRPPhotoDetailViewModel.m */; };
+		EABB761D1AADC906008E4A60 /* FRPLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EABB76191AADC906008E4A60 /* FRPLoginViewController.m */; };
+		EABB761E1AADC906008E4A60 /* FRPLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EABB761A1AADC906008E4A60 /* FRPLoginViewController.xib */; };
+		EABB761F1AADC906008E4A60 /* FRPLoginViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EABB761C1AADC906008E4A60 /* FRPLoginViewModel.m */; };
+		EABB76221AADC92B008E4A60 /* FRPGalleryFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = EABB76211AADC92B008E4A60 /* FRPGalleryFlowLayout.m */; };
+		EABB76251AADC97A008E4A60 /* FRPCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EABB76241AADC97A008E4A60 /* FRPCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6B9CFB0DD2837F7FBF3894EF /* Pods-KoalaFRP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KoalaFRP.release.xcconfig"; path = "Pods/Target Support Files/Pods-KoalaFRP/Pods-KoalaFRP.release.xcconfig"; sourceTree = "<group>"; };
+		7453DE468D45D02FEC963E8F /* libPods-KoalaFRP.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KoalaFRP.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E36AD915979BF15D0A51473C /* Pods-KoalaFRP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KoalaFRP.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KoalaFRP/Pods-KoalaFRP.debug.xcconfig"; sourceTree = "<group>"; };
+		EA02CE981AADC0DA00D131F6 /* KoalaFRP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KoalaFRP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA02CE9C1AADC0DA00D131F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA02CE9D1AADC0DA00D131F6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EA02CE9F1AADC0DA00D131F6 /* FRPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FRPAppDelegate.h; sourceTree = "<group>"; };
+		EA02CEA01AADC0DA00D131F6 /* FRPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FRPAppDelegate.m; sourceTree = "<group>"; };
+		EA02CEA81AADC0DA00D131F6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EA02CEAB1AADC0DA00D131F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EABB75E81AADC65C008E4A60 /* KoalaFRP-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KoalaFRP-Prefix.pch"; sourceTree = "<group>"; };
+		EABB75F21AADC790008E4A60 /* FRPPhotoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRPPhotoModel.h; sourceTree = "<group>"; };
+		EABB75F31AADC790008E4A60 /* FRPPhotoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRPPhotoModel.m; sourceTree = "<group>"; };
+		EABB75F81AADC860008E4A60 /* FRPPhotoImporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRPPhotoImporter.h; sourceTree = "<group>"; };
+		EABB75F91AADC860008E4A60 /* FRPPhotoImporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRPPhotoImporter.m; sourceTree = "<group>"; };
+		EABB75FF1AADC8C3008E4A60 /* FRPGalleryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRPGalleryViewController.h; sourceTree = "<group>"; };
+		EABB76001AADC8C3008E4A60 /* FRPGalleryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRPGalleryViewController.m; sourceTree = "<group>"; };
+		EABB76011AADC8C3008E4A60 /* FRPGalleryViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRPGalleryViewModel.h; sourceTree = "<group>"; };
+		EABB76021AADC8C3008E4A60 /* FRPGalleryViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRPGalleryViewModel.m; sourceTree = "<group>"; };
+		EABB76051AADC8DD008E4A60 /* FRPFullSizePhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRPFullSizePhotoViewController.h; sourceTree = "<group>"; };
+		EABB76061AADC8DD008E4A60 /* FRPFullSizePhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRPFullSizePhotoViewController.m; sourceTree = "<group>"; };
+		EABB76071AADC8DD008E4A60 /* FRPFullSizePhotoViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRPFullSizePhotoViewModel.h; sourceTree = "<group>"; };
+		EABB76081AADC8DD008E4A60 /* FRPFullSizePhotoViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRPFullSizePhotoViewModel.m; sourceTree = "<group>"; };
+		EABB760B1AADC8E8008E4A60 /* FRPPhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRPPhotoViewController.h; sourceTree = "<group>"; };
+		EABB760C1AADC8E8008E4A60 /* FRPPhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRPPhotoViewController.m; sourceTree = "<group>"; };
+		EABB760D1AADC8E8008E4A60 /* FRPPhotoViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRPPhotoViewModel.h; sourceTree = "<group>"; };
+		EABB760E1AADC8E8008E4A60 /* FRPPhotoViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRPPhotoViewModel.m; sourceTree = "<group>"; };
+		EABB76111AADC8F2008E4A60 /* FRPPhotoDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRPPhotoDetailViewController.h; sourceTree = "<group>"; };
+		EABB76121AADC8F2008E4A60 /* FRPPhotoDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRPPhotoDetailViewController.m; sourceTree = "<group>"; };
+		EABB76131AADC8F2008E4A60 /* FRPPhotoDetailViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRPPhotoDetailViewModel.h; sourceTree = "<group>"; };
+		EABB76141AADC8F2008E4A60 /* FRPPhotoDetailViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRPPhotoDetailViewModel.m; sourceTree = "<group>"; };
+		EABB76181AADC906008E4A60 /* FRPLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRPLoginViewController.h; sourceTree = "<group>"; };
+		EABB76191AADC906008E4A60 /* FRPLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRPLoginViewController.m; sourceTree = "<group>"; };
+		EABB761A1AADC906008E4A60 /* FRPLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FRPLoginViewController.xib; sourceTree = "<group>"; };
+		EABB761B1AADC906008E4A60 /* FRPLoginViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRPLoginViewModel.h; sourceTree = "<group>"; };
+		EABB761C1AADC906008E4A60 /* FRPLoginViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRPLoginViewModel.m; sourceTree = "<group>"; };
+		EABB76201AADC92B008E4A60 /* FRPGalleryFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRPGalleryFlowLayout.h; sourceTree = "<group>"; };
+		EABB76211AADC92B008E4A60 /* FRPGalleryFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRPGalleryFlowLayout.m; sourceTree = "<group>"; };
+		EABB76231AADC97A008E4A60 /* FRPCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRPCell.h; sourceTree = "<group>"; };
+		EABB76241AADC97A008E4A60 /* FRPCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRPCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA02CE951AADC0DA00D131F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4C5DAA645A28E654A350E5C /* libPods-KoalaFRP.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C7598D2D292FF6E0672048C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7453DE468D45D02FEC963E8F /* libPods-KoalaFRP.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		899ABBE0E4C3785590BF027C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E36AD915979BF15D0A51473C /* Pods-KoalaFRP.debug.xcconfig */,
+				6B9CFB0DD2837F7FBF3894EF /* Pods-KoalaFRP.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EA02CE8F1AADC0DA00D131F6 = {
+			isa = PBXGroup;
+			children = (
+				EA02CE9A1AADC0DA00D131F6 /* KoalaFRP */,
+				EA02CE991AADC0DA00D131F6 /* Products */,
+				899ABBE0E4C3785590BF027C /* Pods */,
+				4C7598D2D292FF6E0672048C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EA02CE991AADC0DA00D131F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA02CE981AADC0DA00D131F6 /* KoalaFRP.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA02CE9A1AADC0DA00D131F6 /* KoalaFRP */ = {
+			isa = PBXGroup;
+			children = (
+				EA02CE9F1AADC0DA00D131F6 /* FRPAppDelegate.h */,
+				EA02CEA01AADC0DA00D131F6 /* FRPAppDelegate.m */,
+				EABB75F81AADC860008E4A60 /* FRPPhotoImporter.h */,
+				EABB75F91AADC860008E4A60 /* FRPPhotoImporter.m */,
+				EABB75E91AADC70F008E4A60 /* View Controllers */,
+				EABB75EA1AADC71C008E4A60 /* Models */,
+				EABB75EB1AADC729008E4A60 /* UICollectionView Extensions */,
+				EA02CE9B1AADC0DA00D131F6 /* Supporting Files */,
+			);
+			path = KoalaFRP;
+			sourceTree = "<group>";
+		};
+		EA02CE9B1AADC0DA00D131F6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA02CEA81AADC0DA00D131F6 /* Images.xcassets */,
+				EA02CEAA1AADC0DA00D131F6 /* LaunchScreen.xib */,
+				EABB75E81AADC65C008E4A60 /* KoalaFRP-Prefix.pch */,
+				EA02CE9C1AADC0DA00D131F6 /* Info.plist */,
+				EA02CE9D1AADC0DA00D131F6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EABB75E91AADC70F008E4A60 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EABB75FB1AADC88F008E4A60 /* Grallery */,
+				EABB75FE1AADC8B2008E4A60 /* Full Size Photo */,
+				EABB75FD1AADC8A6008E4A60 /* Photo View Controller */,
+				EABB75FC1AADC898008E4A60 /* Photo Details */,
+				EABB76171AADC8F7008E4A60 /* Login */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		EABB75EA1AADC71C008E4A60 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EABB75F21AADC790008E4A60 /* FRPPhotoModel.h */,
+				EABB75F31AADC790008E4A60 /* FRPPhotoModel.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		EABB75EB1AADC729008E4A60 /* UICollectionView Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				EABB76231AADC97A008E4A60 /* FRPCell.h */,
+				EABB76241AADC97A008E4A60 /* FRPCell.m */,
+				EABB76201AADC92B008E4A60 /* FRPGalleryFlowLayout.h */,
+				EABB76211AADC92B008E4A60 /* FRPGalleryFlowLayout.m */,
+			);
+			name = "UICollectionView Extensions";
+			sourceTree = "<group>";
+		};
+		EABB75FB1AADC88F008E4A60 /* Grallery */ = {
+			isa = PBXGroup;
+			children = (
+				EABB75FF1AADC8C3008E4A60 /* FRPGalleryViewController.h */,
+				EABB76001AADC8C3008E4A60 /* FRPGalleryViewController.m */,
+				EABB76011AADC8C3008E4A60 /* FRPGalleryViewModel.h */,
+				EABB76021AADC8C3008E4A60 /* FRPGalleryViewModel.m */,
+			);
+			name = Grallery;
+			sourceTree = "<group>";
+		};
+		EABB75FC1AADC898008E4A60 /* Photo Details */ = {
+			isa = PBXGroup;
+			children = (
+				EABB76111AADC8F2008E4A60 /* FRPPhotoDetailViewController.h */,
+				EABB76121AADC8F2008E4A60 /* FRPPhotoDetailViewController.m */,
+				EABB76131AADC8F2008E4A60 /* FRPPhotoDetailViewModel.h */,
+				EABB76141AADC8F2008E4A60 /* FRPPhotoDetailViewModel.m */,
+			);
+			name = "Photo Details";
+			sourceTree = "<group>";
+		};
+		EABB75FD1AADC8A6008E4A60 /* Photo View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EABB760B1AADC8E8008E4A60 /* FRPPhotoViewController.h */,
+				EABB760C1AADC8E8008E4A60 /* FRPPhotoViewController.m */,
+				EABB760D1AADC8E8008E4A60 /* FRPPhotoViewModel.h */,
+				EABB760E1AADC8E8008E4A60 /* FRPPhotoViewModel.m */,
+			);
+			name = "Photo View Controller";
+			sourceTree = "<group>";
+		};
+		EABB75FE1AADC8B2008E4A60 /* Full Size Photo */ = {
+			isa = PBXGroup;
+			children = (
+				EABB76051AADC8DD008E4A60 /* FRPFullSizePhotoViewController.h */,
+				EABB76061AADC8DD008E4A60 /* FRPFullSizePhotoViewController.m */,
+				EABB76071AADC8DD008E4A60 /* FRPFullSizePhotoViewModel.h */,
+				EABB76081AADC8DD008E4A60 /* FRPFullSizePhotoViewModel.m */,
+			);
+			name = "Full Size Photo";
+			sourceTree = "<group>";
+		};
+		EABB76171AADC8F7008E4A60 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				EABB76181AADC906008E4A60 /* FRPLoginViewController.h */,
+				EABB76191AADC906008E4A60 /* FRPLoginViewController.m */,
+				EABB761A1AADC906008E4A60 /* FRPLoginViewController.xib */,
+				EABB761B1AADC906008E4A60 /* FRPLoginViewModel.h */,
+				EABB761C1AADC906008E4A60 /* FRPLoginViewModel.m */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA02CE971AADC0DA00D131F6 /* KoalaFRP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA02CEBB1AADC0DA00D131F6 /* Build configuration list for PBXNativeTarget "KoalaFRP" */;
+			buildPhases = (
+				E4EEEA808738CA193C340A3E /* Check Pods Manifest.lock */,
+				EA02CE941AADC0DA00D131F6 /* Sources */,
+				EA02CE951AADC0DA00D131F6 /* Frameworks */,
+				EA02CE961AADC0DA00D131F6 /* Resources */,
+				1D72E7763A68A8313C86629C /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KoalaFRP;
+			productName = KoalaFRP;
+			productReference = EA02CE981AADC0DA00D131F6 /* KoalaFRP.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA02CE901AADC0DA00D131F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = alibaba;
+				TargetAttributes = {
+					EA02CE971AADC0DA00D131F6 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = EA02CE931AADC0DA00D131F6 /* Build configuration list for PBXProject "KoalaFRP" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA02CE8F1AADC0DA00D131F6;
+			productRefGroup = EA02CE991AADC0DA00D131F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA02CE971AADC0DA00D131F6 /* KoalaFRP */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA02CE961AADC0DA00D131F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA02CEAC1AADC0DA00D131F6 /* LaunchScreen.xib in Resources */,
+				EA02CEA91AADC0DA00D131F6 /* Images.xcassets in Resources */,
+				EABB761E1AADC906008E4A60 /* FRPLoginViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1D72E7763A68A8313C86629C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KoalaFRP/Pods-KoalaFRP-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4EEEA808738CA193C340A3E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA02CE941AADC0DA00D131F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EABB75F41AADC790008E4A60 /* FRPPhotoModel.m in Sources */,
+				EABB76151AADC8F2008E4A60 /* FRPPhotoDetailViewController.m in Sources */,
+				EA02CEA11AADC0DA00D131F6 /* FRPAppDelegate.m in Sources */,
+				EA02CE9E1AADC0DA00D131F6 /* main.m in Sources */,
+				EABB76161AADC8F2008E4A60 /* FRPPhotoDetailViewModel.m in Sources */,
+				EABB761F1AADC906008E4A60 /* FRPLoginViewModel.m in Sources */,
+				EABB76221AADC92B008E4A60 /* FRPGalleryFlowLayout.m in Sources */,
+				EABB76091AADC8DD008E4A60 /* FRPFullSizePhotoViewController.m in Sources */,
+				EABB76031AADC8C3008E4A60 /* FRPGalleryViewController.m in Sources */,
+				EABB760F1AADC8E8008E4A60 /* FRPPhotoViewController.m in Sources */,
+				EABB75FA1AADC860008E4A60 /* FRPPhotoImporter.m in Sources */,
+				EABB760A1AADC8DD008E4A60 /* FRPFullSizePhotoViewModel.m in Sources */,
+				EABB76251AADC97A008E4A60 /* FRPCell.m in Sources */,
+				EABB761D1AADC906008E4A60 /* FRPLoginViewController.m in Sources */,
+				EABB76041AADC8C3008E4A60 /* FRPGalleryViewModel.m in Sources */,
+				EABB76101AADC8E8008E4A60 /* FRPPhotoViewModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EA02CEAA1AADC0DA00D131F6 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA02CEAB1AADC0DA00D131F6 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA02CEB91AADC0DA00D131F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EA02CEBA1AADC0DA00D131F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA02CEBC1AADC0DA00D131F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E36AD915979BF15D0A51473C /* Pods-KoalaFRP.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KoalaFRP/KoalaFRP-Prefix.pch";
+				INFOPLIST_FILE = KoalaFRP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EA02CEBD1AADC0DA00D131F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B9CFB0DD2837F7FBF3894EF /* Pods-KoalaFRP.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KoalaFRP/KoalaFRP-Prefix.pch";
+				INFOPLIST_FILE = KoalaFRP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA02CE931AADC0DA00D131F6 /* Build configuration list for PBXProject "KoalaFRP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA02CEB91AADC0DA00D131F6 /* Debug */,
+				EA02CEBA1AADC0DA00D131F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA02CEBB1AADC0DA00D131F6 /* Build configuration list for PBXNativeTarget "KoalaFRP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA02CEBC1AADC0DA00D131F6 /* Debug */,
+				EA02CEBD1AADC0DA00D131F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA02CE901AADC0DA00D131F6 /* Project object */;
+}
